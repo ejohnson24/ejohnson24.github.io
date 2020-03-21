@@ -49,6 +49,8 @@ html {
   
   form {
     font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
     color: #EFEFE8;
     display: flex;
     flex-direction: column;
@@ -79,9 +81,17 @@ html {
     font-size: 16px;
   }
 
+  button:hover {
+    color: #EFEFE8;
+    background-color: #1B1026;
+  }
+
   #portrait {
-    width: 100px;
-    border-radius: 200px;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 100px;
+    padding: 20px;
   }
   a {
     text-decoration: none;
@@ -97,12 +107,12 @@ html {
     grid-column: 2;
     display: flex;
     flex-wrap: wrap;
-
   }
+
   .gallery img {
-    border: 5px solid rgba(0,0,0,0);
     padding: 40px;
-    min-width: 200px;
+    max-width: 200px;
+
   }
 
   #name {
@@ -110,6 +120,7 @@ html {
     font-family: "Raleway", sans-serif;
     font-size: 2em;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
   }
   p {
     color: white;
