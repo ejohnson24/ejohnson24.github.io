@@ -87,8 +87,8 @@ html {
   }
 
   #portrait {
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
     border-radius: 100px;
     padding: 20px;
@@ -142,7 +142,7 @@ html {
 
   #about {
     width: 400px;
-    padding: 50px;
+    padding: 100px;
   }
 
   #lost {
