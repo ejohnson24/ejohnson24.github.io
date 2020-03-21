@@ -58,6 +58,9 @@ html {
     justify-content: center;
     align-items: center;
     width: 200px;
+    justify-content: flex-end;
+    padding: 50px;
+
   }
   @keyframes dash {
     to {
