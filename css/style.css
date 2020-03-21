@@ -54,6 +54,10 @@ html {
   form {
     font-family: "Raleway", sans-serif;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
   }
   @keyframes dash {
     to {
