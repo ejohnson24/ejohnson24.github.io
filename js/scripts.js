@@ -43,6 +43,6 @@ gsap.from( '#Moon', {
   lightGallery( document.querySelector('.gallery'), {
   
     mode : 'lg-fade', 
-    backdropDuration : 100
+    backdropDuration : 10,
     
   });
