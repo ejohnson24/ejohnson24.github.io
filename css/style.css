@@ -14,7 +14,7 @@ html {
   }
   
   h2 {
-    font-family: "Raleway", serif;
+    font-family: "Raleway", sans-serif;
     font-size: .75em;
     letter-spacing: 2px;
     padding-bottom: 10px;
@@ -51,7 +51,10 @@ html {
     filter: drop-shadow(3px 0px 5px #1B1026);
   }
   
-  
+  form {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+  }
   @keyframes dash {
     to {
       stroke-dashoffset: 0;
@@ -67,3 +70,4 @@ html {
     cursor: url(#moon), default;
   
       }
+
