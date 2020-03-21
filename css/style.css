@@ -145,6 +145,12 @@ html {
     padding: 50px;
   }
 
+  #lost {
+    font-family: "Raleway", sans-serif;
+    color: #EFEFE8;
+    background-color: #1B1026;
+  }
+
   @keyframes dash {
     to {
       stroke-dashoffset: 0;
