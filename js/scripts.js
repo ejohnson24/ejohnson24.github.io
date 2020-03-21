@@ -38,3 +38,11 @@ gsap.from( '#Moon', {
     attr: { stdDeviation: 0 },
     repeat: 1,
   });
+
+
+  lightGallery( document.querySelector('.gallery'), {
+  
+    mode : 'lg-fade', 
+    backdropDuration : 100
+    
+  });
