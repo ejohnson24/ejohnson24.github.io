@@ -1,4 +1,69 @@
-body {
-color: black;
-background-color: lavender;
-}
+html {
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  body {
+    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3631294/ProfileLongForm-01.jpg");
+    object-fit: cover;
+    width: 100%;
+    background-size: cover;
+    background-position: 300px;
+  }
+  
+  h2 {
+    font-family: "Raleway", serif;
+    font-size: .75em;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    opacity: 0.75;
+  }
+  
+  #content {
+    padding-top: 24px;
+    padding-right: 36px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  
+  #logo {
+    width: 180px;
+    padding-top: 24px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    
+  }
+  
+  aside {
+    width: 300px;
+    background-color: #1B1026;
+    background-size: 100vh;
+    height: 100vh;
+    color: #EFEFE8;
+    filter: drop-shadow(3px 0px 5px #1B1026);
+  }
+  
+  
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  h2:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  a{
+    cursor: url(#moon), default;
+  
+      }
