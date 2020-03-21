@@ -11,6 +11,8 @@ html {
     width: 100%;
     background-size: cover;
     background-position: 300px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
   }
   
   h2 {
@@ -49,18 +51,42 @@ html {
     height: 100vh;
     color: #EFEFE8;
     filter: drop-shadow(3px 0px 5px #1B1026);
+    grid-column: 1;
   }
   
   form {
     font-family: "Raleway", sans-serif;
+    color: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: 200px;
-    justify-content: flex-end;
-    padding: 50px;
+    width: 300px;
+    justify-content: center;
+    padding: 100px;
+    z-index: 100;
+    grid-column: 2;
+  }
 
+  label {
+   padding-right: 20px;
+  }
+  button {
+    background-color: #EFEFE8; 
+    border: none;
+    color: #1B1026;
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 16px 20px;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+
+  a {
+    text-decoration: none;
   }
   @keyframes dash {
     to {
