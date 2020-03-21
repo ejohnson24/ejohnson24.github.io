@@ -148,7 +148,11 @@ html {
   #lost {
     font-family: "Raleway", sans-serif;
     color: #EFEFE8;
-    background-color: #1B1026;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2;
   }
 
   @keyframes dash {
