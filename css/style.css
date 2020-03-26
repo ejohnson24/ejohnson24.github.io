@@ -94,15 +94,33 @@ body::after {
     align-items: center;
     width: 300px;
     justify-content: flex-end;
-    padding: 100px;
-    z-index: 100;
+    margin: 100px;
     grid-column: 2;
   }
 
   label {
-   padding-right: 20px;
+   margin-right: 20px;
+   margin-bottom: 20px;
    display: block;
-   width: 300px;
+   width: 100%;
+  }
+
+  #input{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #1B1026;
+    color: #EFEFE8;
+    border: none;
+  }
+  textarea {
+    border-radius: 10px;
+    background-color: #1B1026;
+    color: #EFEFE8;
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+    border: none;
   }
   button {
     background-color: #EFEFE8; 
@@ -190,9 +208,11 @@ body::after {
     color: white;
     font-family: "Quicksand", sans-serif;
     font-size: 1em;
+    line-height: 2em;
     text-align: justify;
+    text-justify: inter-ideograph;
     hyphens: manual;
-    width: 340px;
+    width: 400px;
   }
 
   #about {

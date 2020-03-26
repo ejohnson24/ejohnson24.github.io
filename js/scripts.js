@@ -1,6 +1,6 @@
 gsap.from( '#Moon', {
-    scaleX: 0.1,
-    scaleY: 0.1,
+    scaleX: 0.001,
+    scaleY: 0.001,
     x: -450,
     opacity: 0,
     duration: 2,
