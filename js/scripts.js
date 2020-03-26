@@ -3,7 +3,7 @@ gsap.from( '#Moon', {
     scaleY: 0.1,
     x: -400,
     opacity: 0,
-    duration: 3,
+    duration: 2,
     rotate: 360,
     ease: "back.out( 1.2)"
   });
@@ -13,8 +13,8 @@ gsap.from( '#Moon', {
     y: 50,
     x: -100,
     opacity: 0,
-    duration: 2,
-    delay: 3,
+    duration: 1,
+    delay: 1,
   });
   
   gsap.from( '#B', {
@@ -23,15 +23,15 @@ gsap.from( '#Moon', {
     rotate: 300,
     opacity: 0,
     duration: 1,
-    delay: 3,
+    delay: 1,
     
   });
   
   gsap.from( '#D', {
     ease: "power2.out",
     opacity: 0,
-    duration: 4,
-    delay: 4,
+    duration: 3.5,
+    delay: 2,
   });
   
   gsap.to( '#glow', 1, {
@@ -39,6 +39,17 @@ gsap.from( '#Moon', {
     repeat: 1,
   });
 
+  gsap.from( '.title', {
+    opacity: 0,
+    duration: 1.2,
+    y:-36,
+  });
+
+  gsap.from('.gallery', {
+    opacity: 0,
+    duration: 1.2,
+    y:-36,
+  });
 
   lightGallery( document.querySelector('.gallery'), {
   
@@ -46,3 +57,4 @@ gsap.from( '#Moon', {
     backdropDuration : 10,
     
   });
+
