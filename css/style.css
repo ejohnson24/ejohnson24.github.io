@@ -6,6 +6,10 @@ html {
     cursor: auto;
   }
 
+  #moon {
+    width: 100%;
+  }
+
 #index {
     background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3631294/ProfileLongForm-01.jpg");
     object-fit: cover;
@@ -191,6 +195,8 @@ body::after {
   #about {
     width: 400px;
     padding: 100px;
+    grid-template-columns: 2;
+    margin-left: 300px;
   }
 
   #lost {

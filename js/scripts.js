@@ -1,7 +1,7 @@
 gsap.from( '#Moon', {
     scaleX: 0.1,
     scaleY: 0.1,
-    x: -400,
+    x: -450,
     opacity: 0,
     duration: 2,
     rotate: 360,
@@ -10,10 +10,9 @@ gsap.from( '#Moon', {
   
   gsap.from( '#Text', {
    
-    y: 50,
-    x: -100,
+    y: -50,
     opacity: 0,
-    duration: 1,
+    duration: 2,
     delay: 1,
   });
   
