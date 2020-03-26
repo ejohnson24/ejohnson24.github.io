@@ -11,7 +11,7 @@ html {
   }
 
 #index {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3631294/ProfileLongForm-01.jpg");
+    background-image: url("img/ProfileLongForm-01.jpg");
     object-fit: cover;
     width: 100%;
     background-size: cover;
@@ -21,7 +21,7 @@ html {
   }
 
 body {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/3631294/ProfileLongForm-01.jpg");
+    background-image: url("./img/ProfileLongForm-01.jpg");
     object-fit: cover;
     width: 100%;
     background-size: cover;
