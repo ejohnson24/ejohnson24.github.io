@@ -50,6 +50,24 @@ gsap.from( '#Moon', {
     y:-36,
   });
 
+  gsap.from('#about', {
+    opacity: 0,
+    duration: 1,
+    y:-26,
+  });
+
+  gsap.from('#name', {
+    opacity: 0,
+    duration: 1,
+    y:-26,
+  });
+
+  gsap.from('form', {
+    opacity: 0,
+    duration: 1,
+    y:-26,
+  });
+
   lightGallery( document.querySelector('.gallery'), {
   
     mode : 'lg-fade', 
@@ -57,3 +75,29 @@ gsap.from( '#Moon', {
     
   });
 
+  /* 
+- INITIALIZE ISOTOPE
+- Arguements: ( Parent Container , OPTIONS )
+*/ 
+const iso = new Isotope( '.filter-container', {
+  itemSelector: '.content'
+});
+
+/* 
+- CLICK BUTTON, FILTER CONTENT
+*/
+// cache filters 
+const filters = document.querySelector('.filters');
+
+// click a filter, then filter content-children
+filters.addEventListener( 'click', function( event ) {
+
+  // not `const` because this value changes. use `let`   
+  let filterValue = event.target.getAttribute('data-filter');
+  console.log(filterValue); 
+
+  // Isotope re-arrange content by filtered value
+  iso.arrange({ filter: filterValue });
+
+
+});
