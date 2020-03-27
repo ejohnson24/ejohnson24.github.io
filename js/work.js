@@ -2,25 +2,25 @@
 gsap.from( '#Moon', {
     scaleY: 0,
     scaleX: 0,
-    y: -10,
     opacity: 0,
-    rotate: -45,
-    duration: 1,
-    ease: "back.out( 0.2)"
+    duration: 2,
+    rotate: 10,
+    delay: 1,
+    ease: "expo",
   });
 
   
   gsap.from( '#Text', {
-    y: -10,
-    scaleY: 0.001,
+    x: -10,
+    scaleX: 0.001,
     duration: 1,
     opacity: 0,
-    delay: 1,
+    delay: 0,
     ease: "SlowMo",
   });
 
   gsap.from( '#content', {
-    y: -40,
+    x: -40,
     duration: 1,
     opacity: 0,
     ease: "SlowMo",
@@ -29,21 +29,20 @@ gsap.from( '#Moon', {
   gsap.from( '#B', {
     scaleX: 0.001,
     scaleY: 0.001,
-    y: -200,
-    x: -100,
-    rotate: 360,
+    y: -300,
     opacity: 0,
-    duration: 1,
-    delay: 0,
-    ease: "back.out( 0.2)",
+    duration: 2,
+    delay: 1,
+    ease: "expo",
     
   });
   
   gsap.from( '#D', {
     ease: "SlowMo",
     opacity: 0,
-    duration: 1,
-    delay: 1,
+    duration: 2,
+    delay: 0,
+    x:-10,
   });
   
   gsap.to( '#glow', 1, {
