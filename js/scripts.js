@@ -5,7 +5,7 @@ gsap.from( '#Moon', {
     y: -10,
     opacity: 0,
     rotate: -45,
-    duration: 1.5,
+    duration: 1,
     ease: "back.out( 0.2)"
   });
 
@@ -33,8 +33,8 @@ gsap.from( '#Moon', {
     x: 10,
     rotate: 480,
     opacity: 0,
-    duration: 1.5,
-    delay: 0,
+    duration: 0.5,
+    delay: 0.5,
     ease: "back.out( 0.2)",
     
   });
