@@ -147,6 +147,10 @@ body::after {
     cursor: pointer;
   }
 
+  #filters {
+    margin-left: 36px;
+  }
+
   #portrait {
     width: 150px;
     height: 150px;
