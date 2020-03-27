@@ -136,7 +136,7 @@ body::after {
     text-decoration: none;
     display: inline-block;
     font-size: 0.65em;
-    margin-left: 36px;
+    margin-right: 36px;
     letter-spacing: 0.25em;
     opacity: 0.8;
   }
