@@ -147,7 +147,7 @@ body::after {
     cursor: pointer;
   }
 
-  #filters {
+  .filters {
     margin-left: 36px;
   }
 
