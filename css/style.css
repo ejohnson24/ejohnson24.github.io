@@ -12,6 +12,7 @@ html {
 
 #index {
     background-image: url("/ProfileLongForm-01.png");
+    background-attachment: fixed;
     object-fit: cover;
     width: 100%;
     background-size: cover;
@@ -22,6 +23,7 @@ html {
 
 body {
     background-image: url("/ProfileLongForm-01.png");
+    background-attachment: fixed;
     object-fit: cover;
     width: 100%;
     background-size: cover;
