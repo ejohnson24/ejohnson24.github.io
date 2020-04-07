@@ -205,6 +205,21 @@ body::after {
 
   }
 
+  .lg-actions .lg-next, .lg-actions .lg-prev {
+    background-color: rgba(72, 62, 116, 0.25);
+  }
+
+  .lg-toolbar.group {
+    background-color: rgba(72, 62, 116, 0.25);
+  }
+
+  .lg-img-wrap {
+    background-color:#1B1026;
+  }
+
+  .lg-counter {
+    font-family: "Quicksand", sans-serif;
+  }
   #name {
     color: white;
     font-family: "Raleway", sans-serif;
