@@ -1,5 +1,5 @@
-const iso = new Isotope( '.filter-container', {
-    itemSelector: '.content'
+const iso = new Isotope( '.gallery', {
+    itemSelector: '.content',
   });
   
   /* 
